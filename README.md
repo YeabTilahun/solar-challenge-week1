@@ -1,8 +1,9 @@
-# Solar Challenge Week 1
+# Solar Challenge Week 0
 
-This repository contains the initial setup for the Solar Challenge Week 1 project.
+This repository contains the initial setup for the Solar Challenge Week 0 project.
 
 ## Project Structure
+```
 ├── .github/
 │   └── workflows
 │       ├── ci.yml
@@ -18,23 +19,26 @@ This repository contains the initial setup for the Solar Challenge Week 1 projec
 └── scripts/
     ├── __init__.py
     └── README.md
-
+```
 ## Getting Started
 
 1. **Create and activate a virtual environment:**
    ```sh
    python -m venv venv
+   ```
+   ```sh
    # On Windows:
    venv\Scripts\activate
+   ```
+   ```sh
    # On macOS/Linux:
    source venv/bin/activate
-
+  ```
 2. **Install dependencies:**
    ```sh
     pip install -r requirements.txt
     ```
 ## Folders
-- **src/**: Contains the main source code for the project.
 - **notebooks/**: Contains Jupyter notebooks for data analysis and visualization.
 - **tests/**: Contains unit tests for the project.
 - **scripts/**: Contains utility scripts for data processing and analysis.
