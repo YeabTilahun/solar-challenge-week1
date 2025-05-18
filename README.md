@@ -27,13 +27,13 @@ This repository contains the initial setup for the Solar Challenge Week 0 projec
    python -m venv venv
    ```
    ```sh
-   # On Windows:
+   On Windows:
    venv\Scripts\activate
    ```
    ```sh
-   # On macOS/Linux:
+   On macOS/Linux:
    source venv/bin/activate
-  ```
+   ```
 2. **Install dependencies:**
    ```sh
     pip install -r requirements.txt
